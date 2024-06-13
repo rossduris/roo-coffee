@@ -3,14 +3,6 @@ import { Bars3Icon } from "@heroicons/react/24/solid";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-start ">
-      <header className="w-full  flex p-1  ">
-        <div className="m-2 rounded-full p-4 shadow-md bg-white bg-opacity-95  w-full flex justify-between">
-          <span className="organic-font text-xl">Roo</span>
-          <nav>
-            <Bars3Icon className="size-6 text-black" />
-          </nav>
-        </div>
-      </header>
       <div className="flex     w-full    justify-center items-start min-h-screen">
         <span className="   m-2 min-h-[50vh] flex justify-around items-center text-xl w-full flex-col">
           <Image

@@ -23,7 +23,7 @@ const Header = () => {
   };
 
   return (
-    <header className="w-full  flex p-1 overflow-hidden">
+    <header className="w-full  flex p-1 overflow-x-hidden">
       <div className="m-2 rounded-full p-4 shadow-md bg-white bg-opacity-95  w-full flex justify-between">
         <span className="organic-font text-xl">Roo</span>
         <nav className=" flex gap-2">
